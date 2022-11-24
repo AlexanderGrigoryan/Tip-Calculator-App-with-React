@@ -1,0 +1,66 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.tipbuttons__button {
+    width: 146.63px;
+    height: 48px;
+    border-radius: 5px;
+    background: #00474B;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    cursor: pointer;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tipbutton__active {
+    background: #26C2AE;
+    color: #00474B;
+}
+
+.tipbuttons__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 16px;
+}
+
+.tipbuttons__input {
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    padding-right: 17.33px;
+    background: #F3F9FA;
+    color: #547878;
+    height: 48px;
+    width: 146.63px;
+    border-radius: 5px;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.tipbuttons__input:focus {
+    outline: 2px solid #26C2AE;
+}
+
+@media screen and (min-width: 1024px) {
+    .tipbuttons__button {
+        width: 117px;
+    }
+
+    .tipbuttons__input {
+        width: 117px;
+    }
+
+    .tipbuttons__container {
+        width: 379px;
+    }
+}

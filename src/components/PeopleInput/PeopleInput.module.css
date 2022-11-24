@@ -1,0 +1,73 @@
+.billinput__title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #5e7a7d;
+}
+
+.input__block {
+    margin: 32px 0 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.billinput__form {
+    width: 311px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.billinput__input {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    width: 311px;
+    height: 48px;
+    border-radius: 5px;
+    background: #f3f9fa;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    color: #00474b;
+    padding-right: 17.48px;
+}
+
+.billinput__input:focus {
+    outline: 2px solid #26c2ae;
+}
+
+.billinput__icon {
+    width: 9.84px;
+    height: 15.45px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.input__error {
+    outline: 2px solid #e17052;
+}
+
+.error {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #e17457;
+}
+
+@media screen and (min-width: 1024px) {
+    .input__block {
+        margin: 40px 0 6px;
+    }
+
+    .billinput__form {
+        width: 379px;
+    }
+
+    .billinput__input {
+        width: 379px;
+    }
+
+}
